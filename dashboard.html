@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        padding: 20px 100px;
+        background-color: palevioletred;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+    }
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.row{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.student-info{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.welcome{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.welcome h1{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.stats{
+    display: flex;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.card h3{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card p{
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+    
+
+</style>
+<head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <h1>Dashboard</h1>
+        <div class="nav-links">
+        <ul>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Assingment</a></li>
+            <li><a href="">Results</a></li>
+            <li><a href="">Profile</a></li>
+        </ul>
+    </div>
+    <div class="student-info">
+        <span>🔔</span>
+        <span>Ammarah</span>
+    </div>
+    </nav>
+</header>
+<main class="container">
+    <section class="welcome">
+        <h1>hey Ammarah... </h1>
+        <p>Your Learning Journey </p>
+    </section>
+    <section class="stats">
+        <article class="card">
+            <h3>Total Courses</h3>
+            <p>6</p>
+        </article>
+        <article class="card">
+            <h3>Completed</h3>
+            <p>3</p>
+        </article>
+        <article class="card">
+            <h3>Pending Assingments</h3>
+            <p>4</p>
+        </article>
+        <article class="card">
+            <h3>Average Grade </h3>
+            <h3>92%</h3>
+        </article>
+    </section>
+    <section class="courses">
+        <h2>My Courses</h2>
+
+        <div class="table-container">
+            <table>
+
+            </table>
+        </div>
+    </section>
+</main>
+</body>
+</html>
